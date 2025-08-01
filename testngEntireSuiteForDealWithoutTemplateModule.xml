@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="com.TransBnk.TestClass_Deals.TestClass_Login" />
+			
+			<class
+				name="com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate" />
+
+			<class name="com.TransBnk.TestClass_Deals.TestClass_Login" />
+
+			<class
+				name="com.TransBnk.TestClass_Deals.TestClass_AddSignatories_after_generateAgreement_DealWithoutTemplate" />
+
+			<class
+				name="com.TransBnk.TestClass_Deals.TestClass_GeoLocation_MandatoryApproval" />
+
+			<!--<class
+				name="com.TransBnk.TestClass_Deals.TestClass_AutoSign_Deal_Without_Template" />
+			<class
+				name="com.TransBnk.TestClass_Deals.TestClass_AutoSign_ForMakerCheker_SameEntity" />
+			<class
+				name="com.TransBnk.TestClass_Deals.TestClass_AutoSign_MakerChekerFlow_forDifferentEntity" />
+
+			<class name="com.TransBnk.TestClass_Deals.TestClass_Login" />
+
+			<class
+				name="com.TransBnk.TestClass_Deals.TestClass_AutoSign_MakerChecker_DealCorrection_ForSameEntity" />
+			<class
+				name="com.TransBnk.TestClass_Deals.TestClass_MakerCheckerFlow_ForSameEntity" />
+			<class
+				name="com.TransBnk.TestClass_Deals.TestClass_makerChekerFlow_forDifferentEntity" />
+			<class
+				name="com.TransBnk.TestClass_Deals.TestClass_MakerChecker_DealCorrection_ForSameEntity" /> -->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
