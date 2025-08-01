@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.TransBnk.TestClass_Deals.TestClass_GeoLocation_MandatoryApproval">
+        <methods>
+          <include name="afterTest"/>
+          <include name="Verify_EnterNumberOfParties"/>
+          <include name="Verify_geoLocationClickOnAllowButtonOnPopup"/>
+          <include name="Verify_EnterOTPFrom_Mail_forDealWithoutTemplate"/>
+          <include name="ClickOnConfirmButton"/>
+          <include name="beforeTest"/>
+          <include name="captureScreenshot"/>
+          <include name="Verify_ReadMailAnd_ClickOnReviewSignButton_forDealWithoutTemplate"/>
+          <include name="AddCustomSignatories_Party2"/>
+          <include name="Verify_ClickOnCheckBoxOnAdharCard"/>
+          <include name="ClickOnAddCustomSignatories_Party2"/>
+          <include name="createExtentTest"/>
+          <include name="Verify_ClickOnSendForExecutionButton"/>
+          <include name="Verify_OpenAgreementPdf"/>
+          <include name="setup"/>
+          <include name="Verify_ClickOnCancelButton_AddSignatories"/>
+          <include name="teardown"/>
+          <include name="EnterValidDetails_CustomSignatories_Party2"/>
+          <include name="ClickOnSelectPredefinedSignatoriesOption"/>
+          <include name="pageobjects"/>
+          <include name="ClickOnDropDown_Party2"/>
+          <include name="AddCustomSignatories_party1"/>
+          <include name="Verify_AddCustomSignatories_party3"/>
+          <include name="Verify_OpenEstampAgreementPdf"/>
+        </methods>
+      </class> <!-- com.TransBnk.TestClass_Deals.TestClass_GeoLocation_MandatoryApproval -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

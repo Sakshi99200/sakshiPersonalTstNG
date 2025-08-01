@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-20T18:12:19 IST" name="Suite" finished-at="2024-08-20T18:14:13 IST" duration-ms="113904">
+    <groups>
+    </groups>
+    <test started-at="2024-08-20T18:12:19 IST" name="Test" finished-at="2024-08-20T18:14:13 IST" duration-ms="113904">
+      <class name="com.TransBnk.TestClass_Deals.TestClass_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Login@38102d01]" started-at="2024-08-20T18:12:12 IST" name="setup" finished-at="2024-08-20T18:12:19 IST" duration-ms="7064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Login@38102d01]" started-at="2024-08-20T18:12:19 IST" name="beforeTest" finished-at="2024-08-20T18:12:19 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="pageobjects()[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Login@38102d01]" started-at="2024-08-20T18:12:19 IST" name="pageobjects" finished-at="2024-08-20T18:12:20 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageobjects -->
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Login@38102d01]" started-at="2024-08-20T18:12:20 IST" name="createExtentTest" finished-at="2024-08-20T18:12:20 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass_Login.Verify_Valid_input_SignInPage()[pri:7, instance:com.TransBnk.TestClass_Deals.TestClass_Login@38102d01] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Login.Verify_Valid_input_SignInPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="Verify_Valid_input_SignInPage()[pri:7, instance:com.TransBnk.TestClass_Deals.TestClass_Login@38102d01]" started-at="2024-08-20T18:12:20 IST" name="Verify_Valid_input_SignInPage" finished-at="2024-08-20T18:12:21 IST" duration-ms="1859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Valid_input_SignInPage -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Login@38102d01]" started-at="2024-08-20T18:12:21 IST" name="captureScreenshot" finished-at="2024-08-20T18:12:21 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Valid_input_SignInPage status=SUCCESS method=TestClass_Login.Verify_Valid_input_SignInPage()[pri:7, instance:com.TransBnk.TestClass_Deals.TestClass_Login@38102d01] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Login.Verify_Valid_input_SignInPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Login@38102d01]" started-at="2024-08-20T18:14:12 IST" name="afterTest" finished-at="2024-08-20T18:14:13 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Login@38102d01]" started-at="2024-08-20T18:14:13 IST" name="teardown" finished-at="2024-08-20T18:14:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TransBnk.TestClass_Deals.TestClass_Login -->
+      <class name="com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate">
+        <test-method is-config="true" signature="pageobjects()[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:21 IST" name="pageobjects" finished-at="2024-08-20T18:12:21 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageobjects -->
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:21 IST" name="createExtentTest" finished-at="2024-08-20T18:12:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass_Deal_WithoutTemplate.Verify_Select_Entity()[pri:1, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_Select_Entity() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="Verify_Select_Entity()[pri:1, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:21 IST" name="Verify_Select_Entity" finished-at="2024-08-20T18:12:29 IST" duration-ms="7192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Select_Entity -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:29 IST" name="captureScreenshot" finished-at="2024-08-20T18:12:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Select_Entity status=SUCCESS method=TestClass_Deal_WithoutTemplate.Verify_Select_Entity()[pri:1, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_Select_Entity() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:29 IST" name="createExtentTest" finished-at="2024-08-20T18:12:29 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass_Deal_WithoutTemplate.Verify_Select_Product()[pri:2, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_Select_Product() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="Verify_Select_Product()[pri:2, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:29 IST" name="Verify_Select_Product" finished-at="2024-08-20T18:12:32 IST" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Select_Product -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:32 IST" name="captureScreenshot" finished-at="2024-08-20T18:12:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Select_Product status=SUCCESS method=TestClass_Deal_WithoutTemplate.Verify_Select_Product()[pri:2, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_Select_Product() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method signature="Verify_ReadMailAnd_ClickOnReviewSignButton_forDealWithoutTemplate()[pri:34, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:32 IST" name="Verify_ReadMailAnd_ClickOnReviewSignButton_forDealWithoutTemplate" finished-at="2024-08-20T18:12:57 IST" duration-ms="25584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ReadMailAnd_ClickOnReviewSignButton_forDealWithoutTemplate -->
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:32 IST" name="createExtentTest" finished-at="2024-08-20T18:12:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass_Deal_WithoutTemplate.Verify_ReadMailAnd_ClickOnReviewSignButton_forDealWithoutTemplate()[pri:34, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ReadMailAnd_ClickOnReviewSignButton_forDealWithoutTemplate() throws javax.mail.MessagingException,java.io.IOException,java.lang.InterruptedException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:57 IST" name="captureScreenshot" finished-at="2024-08-20T18:12:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_ReadMailAnd_ClickOnReviewSignButton_forDealWithoutTemplate status=SUCCESS method=TestClass_Deal_WithoutTemplate.Verify_ReadMailAnd_ClickOnReviewSignButton_forDealWithoutTemplate()[pri:34, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ReadMailAnd_ClickOnReviewSignButton_forDealWithoutTemplate() throws javax.mail.MessagingException,java.io.IOException,java.lang.InterruptedException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method signature="Verify_EnterOTPFrom_Mail_forDealWithoutTemplate()[pri:35, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:57 IST" name="Verify_EnterOTPFrom_Mail_forDealWithoutTemplate" finished-at="2024-08-20T18:13:29 IST" duration-ms="31990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_EnterOTPFrom_Mail_forDealWithoutTemplate -->
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:12:57 IST" name="createExtentTest" finished-at="2024-08-20T18:12:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass_Deal_WithoutTemplate.Verify_EnterOTPFrom_Mail_forDealWithoutTemplate()[pri:35, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_EnterOTPFrom_Mail_forDealWithoutTemplate() throws javax.mail.MessagingException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:29 IST" name="captureScreenshot" finished-at="2024-08-20T18:13:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_EnterOTPFrom_Mail_forDealWithoutTemplate status=SUCCESS method=TestClass_Deal_WithoutTemplate.Verify_EnterOTPFrom_Mail_forDealWithoutTemplate()[pri:35, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_EnterOTPFrom_Mail_forDealWithoutTemplate() throws javax.mail.MessagingException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:29 IST" name="createExtentTest" finished-at="2024-08-20T18:13:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass_Deal_WithoutTemplate.Verify_ClickOnVerifyButton()[pri:36, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ClickOnVerifyButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="Verify_ClickOnVerifyButton()[pri:36, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:29 IST" name="Verify_ClickOnVerifyButton" finished-at="2024-08-20T18:13:30 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ClickOnVerifyButton -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:30 IST" name="captureScreenshot" finished-at="2024-08-20T18:13:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_ClickOnVerifyButton status=SUCCESS method=TestClass_Deal_WithoutTemplate.Verify_ClickOnVerifyButton()[pri:36, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ClickOnVerifyButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:30 IST" name="createExtentTest" finished-at="2024-08-20T18:13:30 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass_Deal_WithoutTemplate.Verify_ClickOnCheckBox()[pri:37, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ClickOnCheckBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="Verify_ClickOnCheckBox()[pri:37, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:30 IST" name="Verify_ClickOnCheckBox" finished-at="2024-08-20T18:13:32 IST" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ClickOnCheckBox -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:32 IST" name="captureScreenshot" finished-at="2024-08-20T18:13:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_ClickOnCheckBox status=SUCCESS method=TestClass_Deal_WithoutTemplate.Verify_ClickOnCheckBox()[pri:37, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ClickOnCheckBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:32 IST" name="createExtentTest" finished-at="2024-08-20T18:13:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass_Deal_WithoutTemplate.Verify_ClickOnProceedToSignButton()[pri:38, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ClickOnProceedToSignButton() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="Verify_ClickOnProceedToSignButton()[pri:38, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:32 IST" name="Verify_ClickOnProceedToSignButton" finished-at="2024-08-20T18:13:33 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ClickOnProceedToSignButton -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:33 IST" name="captureScreenshot" finished-at="2024-08-20T18:13:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_ClickOnProceedToSignButton status=SUCCESS method=TestClass_Deal_WithoutTemplate.Verify_ClickOnProceedToSignButton()[pri:38, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ClickOnProceedToSignButton() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method signature="Verify_ClickOnCheckBoxOnAdharCard()[pri:39, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:33 IST" name="Verify_ClickOnCheckBoxOnAdharCard" finished-at="2024-08-20T18:13:38 IST" duration-ms="5127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ClickOnCheckBoxOnAdharCard -->
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:33 IST" name="createExtentTest" finished-at="2024-08-20T18:13:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass_Deal_WithoutTemplate.Verify_ClickOnCheckBoxOnAdharCard()[pri:39, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ClickOnCheckBoxOnAdharCard() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:38 IST" name="captureScreenshot" finished-at="2024-08-20T18:13:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_ClickOnCheckBoxOnAdharCard status=SUCCESS method=TestClass_Deal_WithoutTemplate.Verify_ClickOnCheckBoxOnAdharCard()[pri:39, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ClickOnCheckBoxOnAdharCard() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:38 IST" name="createExtentTest" finished-at="2024-08-20T18:13:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass_Deal_WithoutTemplate.Verify_EnterAdharNumber()[pri:40, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_EnterAdharNumber() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="Verify_EnterAdharNumber()[pri:40, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:38 IST" name="Verify_EnterAdharNumber" finished-at="2024-08-20T18:13:39 IST" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_EnterAdharNumber -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:39 IST" name="captureScreenshot" finished-at="2024-08-20T18:13:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_EnterAdharNumber status=SUCCESS method=TestClass_Deal_WithoutTemplate.Verify_EnterAdharNumber()[pri:40, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_EnterAdharNumber() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method signature="Verify_ClickOnSendOTPbutton()[pri:41, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:39 IST" name="Verify_ClickOnSendOTPbutton" finished-at="2024-08-20T18:14:12 IST" duration-ms="32549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ClickOnSendOTPbutton -->
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:13:39 IST" name="createExtentTest" finished-at="2024-08-20T18:13:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass_Deal_WithoutTemplate.Verify_ClickOnSendOTPbutton()[pri:41, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ClickOnSendOTPbutton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3]" started-at="2024-08-20T18:14:12 IST" name="captureScreenshot" finished-at="2024-08-20T18:14:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_ClickOnSendOTPbutton status=SUCCESS method=TestClass_Deal_WithoutTemplate.Verify_ClickOnSendOTPbutton()[pri:41, instance:com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate.Verify_ClickOnSendOTPbutton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+      </class> <!-- com.TransBnk.TestClass_Deals.TestClass_Deal_WithoutTemplate -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
